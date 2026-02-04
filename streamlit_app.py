@@ -79,7 +79,7 @@ st.markdown(
     """
     - **Email:** yuvaanb@example.com  
     - **GitHub:** https://github.com/yuvaanb
-   
+    """
 )
 
 st.divider()
