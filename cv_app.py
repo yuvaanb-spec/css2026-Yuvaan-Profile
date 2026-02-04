@@ -84,7 +84,7 @@ def generate_cv_pdf():
         "Exploratory data analysis using Python and interactive dashboards."
     )
 
-    return pdf.output(dest="S")
+    return bytes(pdf.output(dest="S"))
 
 
 # -----------------------
