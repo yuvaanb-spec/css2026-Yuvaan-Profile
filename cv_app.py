@@ -84,7 +84,7 @@ def generate_cv_pdf():
         "Exploratory data analysis using Python and interactive dashboards."
     )
 
-    return pdf.output(dest="S").encode("latin-1")
+    return pdf.output(dest="S")
 
 
 # -----------------------
